@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  gomqtt:
+    image: gomqtt
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 3300:3300

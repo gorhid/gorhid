@@ -1,0 +1,159 @@
+Broker: 
+  ip: "192.168.1.15"
+  port: 1883
+Influx:
+  ip: "192.168.1.15"
+  port: 8086
+  bucket: "Op_470_mqtt"
+  org: "Volvo"
+  token: "34ztLuaMsIEg7cTA6tKrE5cPW3BDxGVE_ryeCAm8NZT9_nfW5e5RWGIuVZ2AW58qFq_sAStf16OV8qaQhiLThg=="
+Topic:
+  -
+    topic: "bfc/OP470_8532144_SINUMERIK/iotclient/dataset/CSM_AX01"
+    parse:
+      -
+       tag: "set.datapoints.1.name"
+       field: "set.datapoints.1.value"
+  -
+    topic: "bfc/OP470_8532144_SINUMERIK/iotclient/dataset/CSM_AX02"
+    parse:
+      -
+       tag: "set.datapoints.1.name"
+       field: "set.datapoints.1.value"
+  -
+    topic: "bfc/OP470_8532144_SINUMERIK/iotclient/dataset/CSM_AX03"
+    parse:
+      -
+       tag: "set.datapoints.1.name"
+       field: "set.datapoints.1.value"
+  -
+    topic: "bfc/OP470_8532144_SINUMERIK/iotclient/dataset/CSM_AX04"
+    parse:
+      -
+       tag: "set.datapoints.1.name"
+       field: "set.datapoints.1.value"
+  -
+    topic: "bfc/OP470_8532144_SINUMERIK/iotclient/dataset/CSM_AX07"
+    parse:
+      -
+       tag: "set.datapoints.1.name"
+       field: "set.datapoints.1.value"
+  -
+    topic: "bfc/OP470_8532144_SINUMERIK/iotclient/dataset/CSM_AX08"
+    parse:
+      -
+       tag: "set.datapoints.1.name"
+       field: "set.datapoints.1.value"
+  -
+    topic: "bfc/OP470_8532144_SINUMERIK/iotclient/dataset/CSM_AX09"
+    parse:
+      -
+       tag: "set.datapoints.1.name"
+       field: "set.datapoints.1.value"
+  -
+    topic: "bfc/OP470_8532144_SINUMERIK/iotclient/dataset/CSM_AX10"
+    parse:
+      -
+       tag: "set.datapoints.1.name"
+       field: "set.datapoints.1.value"
+  -
+    topic: "bfc/OP470_8532144_SINUMERIK/iotclient/dataset/CSM_AX11"
+    parse:
+      -
+       tag: "set.datapoints.1.name"
+       field: "set.datapoints.1.value"
+  -
+    topic: "bfc/OP470_8532144_SINUMERIK/iotclient/dataset/CSM_AX12"
+    parse:
+      -
+       tag: "set.datapoints.1.name"
+       field: "set.datapoints.1.value"
+  -
+    topic: "bfc/OP470_8532144_SINUMERIK/iotclient/dataset/CSM_AX13"
+    parse:
+      -
+       tag: "set.datapoints.1.name"
+       field: "set.datapoints.1.value"
+  -
+    topic: "bfc/OP470_8532144_SINUMERIK/iotclient/dataset/CSM_AX14"
+    parse:
+      -
+       tag: "set.datapoints.1.name"
+       field: "set.datapoints.1.value"
+  -
+    topic: "bfc/OP470_8532144_SINUMERIK/iotclient/dataset/CSM_AX15"
+    parse:
+      -
+       tag: "set.datapoints.1.name"
+       field: "set.datapoints.1.value"
+  -
+    topic: "bfc/OP470_8532144_SINUMERIK/iotclient/dataset/CSM_AX22"
+    parse:
+      -
+       tag: "set.datapoints.1.name"
+       field: "set.datapoints.1.value"
+  -
+    topic: "bfc/OP470_8532144_SINUMERIK/iotclient/dataset/CSM_AX23"
+    parse:
+      -
+       tag: "set.datapoints.1.name"
+       field: "set.datapoints.1.value"
+  -
+    topic: "bfc/OP470_8532144_SINUMERIK/iotclient/dataset/CSM_SP21"
+    parse:
+      -
+       tag: "set.datapoints.1.name"
+       field: "set.datapoints.1.value"
+  -
+    topic: "bfc/OP470_8532144_SINUMERIK/iotclient/dataset/CSM_SP22"
+    parse:
+      -
+       tag: "set.datapoints.1.name"
+       field: "set.datapoints.1.value"
+  -
+    topic: "bfc/OP470_8532144_SINUMERIK/iotclient/dataset/CSM_SP31"
+    parse:
+      -
+       tag: "set.datapoints.1.name"
+       field: "set.datapoints.1.value"
+  -
+    topic: "bfc/OP470_8532144_SINUMERIK/iotclient/dataset/CSM_SP32"
+    parse:
+      -
+       tag: "set.datapoints.1.name"
+       field: "set.datapoints.1.value"
+  -
+    topic: "bfc/OP470_8532144_SINUMERIK/iotclient/dataset/CSM_SP33"
+    parse:
+      -
+       tag: "set.datapoints.1.name"
+       field: "set.datapoints.1.value"
+  -
+    topic: "bfc/OP470_8532144_SINUMERIK/iotclient/dataset/CSM_SP34"
+    parse:
+      -
+       tag: "set.datapoints.1.name"
+       field: "set.datapoints.1.value"
+  -
+    topic: "bfc/OP470_8532144_SINUMERIK/iotclient/dataset/CSM_SP35"
+    parse:
+      -
+       tag: "set.datapoints.1.name"
+       field: "set.datapoints.1.value"
+  -
+    topic: "bfc/OP470_8532144_SINUMERIK/iotclient/dataset/CSM_SP36"
+    parse:
+      -
+       tag: "set.datapoints.1.name"
+       field: "set.datapoints.1.value"
+
+
+
+
+
+       
+
+
+
+
+  
