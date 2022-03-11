@@ -72,8 +72,8 @@ func pars_topic(topic string, payload []byte) {
 				field := gjson.Get(string(payload), conf.Topic[i].Parse[j].Field)
 				log.Debugf("Topic: %s    Tag: %s     Field: %v ", topic, tag.String(), field.Float())
 				p := influx.NewPointWithMeasurement(conf.Influx.Bucket).
-					AddTag("unit", string(tag.Str)).
-					AddField("Value", field).
+					AddTag("unit", string(tag.String())).
+					AddField("Value", field.Value()).
 					SetTime(time.Now())
 				writeAPI.WritePoint(p)
 			}
